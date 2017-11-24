@@ -1,0 +1,16 @@
+{
+  "name": "aaa.my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "common": "browserify src/common.js > dist/common.js",
+    "home": "browserify -u jquery src/home.js > dist/home.js",
+    "contacts": "browserify src/contacts.js > dist/contacts.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

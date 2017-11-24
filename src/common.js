@@ -1,1 +1,1 @@
-var $ = require('jquery111222223534511111111');
+var $ = require('jquery111222223534511111111qweqweqwe');
